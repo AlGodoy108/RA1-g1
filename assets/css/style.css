@@ -1,7 +1,13 @@
 /*Basico*/
+:root{
+    --color-principal: #D9C162;
+    --color-secundario: #7c411e;
+    --fuente-primaria: 'Roboto', sans-serif;
+
+}
 body{
     margin: 0 auto;
-    background-color: #a7acb1;
+
 }
 header{
     display: flex;
@@ -9,25 +15,25 @@ header{
     font-size: 20px;
 }
 .parrafos{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--fuente-primaria)
 }
 .titulos{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--fuente-primaria)
 }
 
-/*Header*/
+/*--------------------Header--------------------*/
 .caja1{
-    background-color: #D9C162;
+    background-color: var(--color-principal);
     width: 20%;
     height: 120px;
 }
 .caja2{
-    background-color: #D9C162;
+    background-color: var(--color-principal);
     width: 60%;
     height: 120px;
 }
 .caja3{
-    background-color: #D9C162;
+    background-color: var(--color-principal);
     width: 20%;
     height: 120px;
 }
@@ -53,7 +59,7 @@ header{
     padding: 0 15px 0 10px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    color: #D9C162;
+    color: #7c411e;
     font-size: 18px;
     line-height: 100px;
 }
@@ -63,7 +69,12 @@ header{
 .active > a{
     font-weight: 500 !important;
 }
-/*Mapa*/
+/*--------------------Carrusel-Presentacion--------------------*/
+.imagenes-carrusel{
+    max-width: 1500px;
+    max-height: 650px;
+}
+/*--------------------Mapa--------------------*/
 .detalles-mapa{
     padding-top: 50px;
     padding-left: 50px;
@@ -72,9 +83,9 @@ header{
 }
 .padding{
     padding-top: 100px;
-    padding-left: 100px;
+    padding-left: 50px;
 }
-/*Carta-Gatos*/
+/*--------------------Carta-Gatos--------------------*/
 .titulo-carta{
     padding-left: 400px;
     padding-bottom: 50px;
@@ -84,7 +95,7 @@ header{
 .background-card{
     background-color: #D9C162;
 }
-/*Footer*/
+/*--------------------Footer--------------------*/
 .detalles-footer{
     background-color: #7c411e;
     color: white;
