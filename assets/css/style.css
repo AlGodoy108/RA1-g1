@@ -1,0 +1,104 @@
+/*Basico*/
+body{
+    margin: 0 auto;
+    background-color: #a7acb1;
+}
+header{
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+}
+.parrafos{
+    font-family: 'Roboto', sans-serif;
+}
+.titulos{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
+.caja1{
+    background-color: #D9C162;
+    width: 20%;
+    height: 120px;
+}
+.caja2{
+    background-color: #D9C162;
+    width: 60%;
+    height: 120px;
+}
+.caja3{
+    background-color: #D9C162;
+    width: 20%;
+    height: 120px;
+}
+.moca{
+    width: 220px;
+    height: 200px;
+    padding-bottom: 50px;
+}
+.menuprincipal{
+    float: left;
+    margin-right: 30px;
+    margin-top: 6px;
+}
+.menu{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 5px;
+}
+.menu > li{
+    float: left;
+}
+.menu > li > a{
+    padding: 0 15px 0 10px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #D9C162;
+    font-size: 18px;
+    line-height: 100px;
+}
+.menu > li > a:hover{
+    font-weight: 500;
+}
+.active > a{
+    font-weight: 500 !important;
+}
+/*Mapa*/
+.detalles-mapa{
+    padding-top: 50px;
+    padding-left: 50px;
+    height: 95%;
+    width: 75%;
+}
+.padding{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+/*Carta-Gatos*/
+.titulo-carta{
+    padding-left: 400px;
+    padding-bottom: 50px;
+    padding-top: 200px;
+    
+}
+.background-card{
+    background-color: #D9C162;
+}
+/*Footer*/
+.detalles-footer{
+    background-color: #7c411e;
+    color: white;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+.parrafos-footer{
+    text-align: center;
+    font-size: 30px;
+}
+.imagenes-gatos-card{
+    height: 330px;
+    width: 412px;
+
+}
