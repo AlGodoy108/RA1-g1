@@ -3,11 +3,11 @@
     --color-principal: #D9C162;
     --color-secundario: #7c411e;
     --fuente-primaria: 'Roboto', sans-serif;
-
+    --espacio--secciones:120px 0 35px 0;
 }
 body{
     margin: 0 auto;
-
+    background-color: #D9C162;
 }
 header{
     display: flex;
@@ -75,23 +75,21 @@ header{
     max-height: 650px;
 }
 /*--------------------Mapa--------------------*/
-.detalles-mapa{
-    padding-top: 50px;
-    padding-left: 50px;
-    height: 95%;
-    width: 75%;
+.espacio{
+    padding: var(--espacio--secciones);
 }
-.padding{
-    padding-top: 100px;
-    padding-left: 50px;
+.detalles-mapa{
+    padding: 50px 50px 0 50px;
+
 }
 /*--------------------Carta-Gatos--------------------*/
-.titulo-carta{
-    padding-left: 400px;
-    padding-bottom: 50px;
-    padding-top: 200px;
-    
+.detalles-carta{
+    font-size: px;
+    font-family: var(--fuente-primaria);
+    text-align: center;
+    padding: var(--espacio--secciones);
 }
+
 .background-card{
     background-color: #D9C162;
 }
