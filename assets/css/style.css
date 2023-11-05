@@ -4,24 +4,19 @@
     --color-secundario: #7c411e;
     --fuente-primaria: 'Roboto', sans-serif;
     --espacio--secciones:120px 0 20px 0;
+    --tamaño-letras: 17px;
 }
 body{
     margin: 0 auto;
     background-color: #D9C162;
 }
+
+/*--------------------Header--------------------*/
 header{
     display: flex;
     text-align: center;
     font-size: 20px;
 }
-.parrafos{
-    font-family: var(--fuente-primaria)
-}
-.titulos{
-    font-family: var(--fuente-primaria)
-}
-
-/*--------------------Header--------------------*/
 .caja1{
     background-color: var(--color-principal);
     width: 20%;
@@ -69,26 +64,34 @@ header{
 .active > a{
     font-weight: 500 !important;
 }
+
 /*--------------------Carrusel-Presentacion--------------------*/
 .imagenes-carrusel{
     max-width: 1500px;
     max-height: 650px;
 }
+
 /*--------------------Mapa--------------------*/
 .espacio{
     padding: var(--espacio--secciones);
 }
 .detalles-mapa{
     padding: 50px 50px 0 50px;
-
+    font-family: var(--fuente-primaria);
+    font-size: var(--tamaño-letras);
+    text-align: justify;
+    line-height: 30px;
 }
+.detalles-mapa > h2{
+    font-size: 28px;
+}
+
 /*--------------------Carta-Gatos--------------------*/
 .detalles-carta{
     font-family: var(--fuente-primaria);
     text-align: center;
     padding: var(--espacio--secciones);
 }
-
 .background-card{
     background-color: #D9C162;
 }
@@ -96,41 +99,32 @@ header{
     height: 330px;
     width: 412px;
 }
-.btn-bd-primary {
-    --bs-btn-font-weight: 600;
-    --bs-btn-color: var(--bs-white);
-    --bs-btn-bg: var(--bd-violet-bg);
-    --bs-btn-border-color: var(--bd-violet-bg);
-    --bs-btn-hover-color: var(--bs-white);
-    --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
-    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
-    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-    --bs-btn-active-color: var(--bs-btn-hover-color);
-    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
-    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
-}
+
 /*--------------------Productos--------------------*/
-.pruebas{
+.imagen-producto{
     max-width: 700px;
     max-height: 700px;
 }
-.pruebas2{
-    padding-left: 280px;
-    padding-bottom: 30px;
-    padding-top: 120px;
+.borde-producto{
+    padding: 120px 0 200px 280px;
 }
 
 /*--------------------Footer--------------------*/
-.detalles-footer{
+footer{
     background-color: #7c411e;
     color: white;
-    text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 30px;
+    text-align: justify;
+    padding: 50px 0 50px 0;
+    font-family: var(--fuente-primaria);
+    font-size: var(--tamaño-letras);
+    line-height: 30px;
 }
-.parrafos-footer{
-    text-align: center;
-    font-size: 30px;
+footer > div > div > h2{
+    font-size: 28px;
 }
+.logos{
+    max-height: 44px;
+    max-width: 44px;
+}
+
 
