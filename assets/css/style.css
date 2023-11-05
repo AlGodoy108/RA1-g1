@@ -3,7 +3,7 @@
     --color-principal: #D9C162;
     --color-secundario: #7c411e;
     --fuente-primaria: 'Roboto', sans-serif;
-    --espacio--secciones:120px 0 35px 0;
+    --espacio--secciones:120px 0 20px 0;
 }
 body{
     margin: 0 auto;
@@ -84,7 +84,6 @@ header{
 }
 /*--------------------Carta-Gatos--------------------*/
 .detalles-carta{
-    font-size: px;
     font-family: var(--fuente-primaria);
     text-align: center;
     padding: var(--espacio--secciones);
@@ -93,6 +92,34 @@ header{
 .background-card{
     background-color: #D9C162;
 }
+.imagenes-gatos-card{
+    height: 330px;
+    width: 412px;
+}
+.btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+}
+/*--------------------Productos--------------------*/
+.pruebas{
+    max-width: 700px;
+    max-height: 700px;
+}
+.pruebas2{
+    padding-left: 280px;
+    padding-bottom: 30px;
+    padding-top: 120px;
+}
+
 /*--------------------Footer--------------------*/
 .detalles-footer{
     background-color: #7c411e;
@@ -106,8 +133,4 @@ header{
     text-align: center;
     font-size: 30px;
 }
-.imagenes-gatos-card{
-    height: 330px;
-    width: 412px;
 
-}
