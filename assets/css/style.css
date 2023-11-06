@@ -134,12 +134,26 @@ footer > div > div > h2{
 
 }
 .detalles-felinos{
-    padding: 0 30px 0 30px;
+    margin: 0 100px 0 100px;
     line-height: 30px;
 }
 .detalles-felinos > div > img{
-   max-width: 100%;
+    max-width: 100%;
     border-radius: 50%;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.detalles-felinos > div > p{
+    font-family: var(--fuente-primaria);
+    font-size: var(--tamaño-letras);
+    margin: 0 auto;
+    padding: 20px;
+}
+.detalles-felinos > div > h2{
+    font-family: var(--fuente-primaria);
+    margin: 0 auto;
+
 
 }
 
