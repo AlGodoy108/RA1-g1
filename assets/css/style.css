@@ -126,5 +126,40 @@ footer > div > div > h2{
     max-height: 44px;
     max-width: 44px;
 }
+/*--------------------------------------------Gatos-----------------------------------------------------------------*/
+.felinos{
+    font-family: var(--fuente-primaria);
+    text-align: center;
+    padding: var(--espacio--secciones);
+
+}
+.detalles-felinos{
+    padding: 0 30px 0 30px;
+    line-height: 30px;
+}
+.detalles-felinos > div > img{
+   max-width: 100%;
+    border-radius: 50%;
+
+}
 
 
+
+/*--------------------------------------------Nosotros-----------------------------------------------------------------*/
+.margenes-contacto{
+    font-size: var(--fuente-primaria);
+    font-family: var(--tamaño-letras);
+    padding: var(--espacio--secciones);
+    text-align: center;
+    line-height: 65px;
+}
+.margenes-imagen-contacto > img{
+    max-height: 44px;
+    max-width: 44px;
+
+
+}
+.imagen-contacto{
+ max-width: 90%;
+
+}
