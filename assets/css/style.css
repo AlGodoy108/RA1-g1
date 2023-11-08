@@ -78,13 +78,8 @@ footer > div > div > h2{
 .padding-footer{
     padding: 0 50px 0 50px
 }
+
 /*--------------------------------------------Menu-----------------------------------------------------------------*/
-.menu-logo{
-    max-height: 50%;
-    max-width: 50%;
-    margin-left: 495px;
-    padding-top: 50px;
-}
 .detalles-menu{
     font-family: var(--fuente-primaria);
     font-size: var(--tamaño-letras);
@@ -92,14 +87,9 @@ footer > div > div > h2{
 .detalles-menu > div{
     background-color: #bea678;
     background-image: url("../img/fondo-cafe3.png");
-    max-width: 100vw;
-    max-height: 100vw;
 }
 .detalles-menu > div > h2{
     padding: 40px 0 40px 0;
-}
-.detalles-menu > section{
-
 }
 .detalles-menu > section > h5{
     margin-left: 100px;
@@ -113,16 +103,6 @@ footer > div > div > h2{
     padding-bottom: 15px;
 }
 
-
-
-
-
-
-
-
-
-
-
 /*--------------------------------------------Gatos-----------------------------------------------------------------*/
 .felinos{
     font-family: var(--fuente-primaria);
@@ -133,14 +113,14 @@ footer > div > div > h2{
 .detalles-felinos{
     margin: 0 100px 0 100px;
     line-height: 30px;
+    padding-bottom: 30px;
 }
 .detalles-felinos > div > img{
     max-width: 100%;
     border-radius: 50%;
-    border: black;
     width: 300px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 0 0 20px;
 }
 .detalles-felinos > div > p{
     font-family: var(--fuente-primaria);
@@ -157,27 +137,23 @@ footer > div > div > h2{
     border-radius: 15px;
 }
 
-
-
 /*--------------------------------------------Nosotros-----------------------------------------------------------------*/
 .detalles-datos{
     font-family: var(--fuente-primaria);
     font-size: var(--tamaño-letras);
     padding: var(--espacio--secciones);
     text-align: center;
-    line-height: 56px;
-    padding-left: 15px;
+    line-height: 68px;
 }
 .detalles-datos > img{
     max-height: 44px;
     max-width: 44px;
 }
 .imagen-datos{
-    max-width: 70%;
+    max-width: 82%;
     padding: var(--espacio--secciones);
     margin-right: 50px;
     margin-left: 50px;
-
 }
 
 /*--------------------Form--------------------*/
@@ -199,14 +175,5 @@ footer > div > div > h2{
 .Moca{
     max-width: 10vw;
     max-height: 10vw;
-
-}
-.detalles-inicio > ul > li{
-    padding-left: 50px;
-}
-.detalles-inicio > ul > li > a{
-    font-family: var(--fuente-primaria);
-    font-size: var(--tamaño-letras);
-
 
 }
