@@ -51,7 +51,7 @@ body{
     font-family: var(--fuente-primaria);
     font-size: var(--tamaño-letras);
     text-align: center;
-    padding: var(--espacio--secciones);
+    padding: 120px 0 80px 0;
     line-height: 30px;
 }
 .detalles-horario > h3{
@@ -73,8 +73,11 @@ footer > div > div > h2{
 .logos{
     max-height: 44px;
     max-width: 44px;
+    padding-right: 15px;
 }
-
+.padding-footer{
+    padding: 0 50px 0 50px
+}
 /*--------------------------------------------Menu-----------------------------------------------------------------*/
 .menu-logo{
     max-height: 50%;
@@ -134,6 +137,7 @@ footer > div > div > h2{
 .detalles-felinos > div > img{
     max-width: 100%;
     border-radius: 50%;
+    border: black;
     width: 300px;
     margin: 0 auto;
     padding: 20px;
