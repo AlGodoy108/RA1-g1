@@ -89,15 +89,15 @@ footer > div > div > h2{
     background-image: url("../img/fondo-cafe3.png");
 }
 .detalles-menu > div > h2{
-    padding: 40px 0 40px 0;
+    padding: 40px 0 40px 25px;
 }
 .detalles-menu > section > h5{
-    margin-left: 100px;
+    margin-left: 200px;
     margin-top: 13px;
     display: flex;
 }
 .detalles-menu > section > h4{
-    margin-left: 400px;
+    margin-left: 200px;
     margin-top: 10px;
     display: flex;
     padding-bottom: 15px;
